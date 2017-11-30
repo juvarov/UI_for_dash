@@ -1,5 +1,8 @@
 $(document).ready(function(){
       $('.slicker').slick({
-        setting-name: setting-value
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
       });
     });
